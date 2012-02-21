@@ -1,0 +1,13 @@
+This is a port of NetBSD m4 (4.0) to Linux.
+It compiles with a couple warnings using musl.
+When built as a shared binary it is ~22k (-Os, stripped binary).
+
+The original code is copyright by the UC Regents and the NetBSD Foundation.
+Some modifications have been made.
+
+All changes are hereby released as public domain;
+In the event that this is not permitted by law, the following license applies:
+This code may be used, modified, and distributed in any form, whether modified
+or unmodifed, without restriction or credit, for any purpose whatsover.
+
+Regardless of whether this code is used under license or as public domain
