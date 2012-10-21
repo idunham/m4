@@ -37,7 +37,7 @@
 #include "nbtool_config.h"
 #endif
 
-#include <sys/cdefs.h>
+/* #include <sys/cdefs.h> */
 #if defined(__RCSID) && !defined(lint)
 #if 0
 static char sccsid[] = "@(#)look.c	8.1 (Berkeley) 6/6/93";
@@ -61,7 +61,7 @@ __RCSID("$NetBSD: look.c,v 1.10 2004/06/20 22:20:15 jmc Exp $");
 #include "stdd.h"
 #include "extern.h"
 
-static void freent __P((ndptr));
+static void freent (ndptr);
 
 unsigned
 hash(name)

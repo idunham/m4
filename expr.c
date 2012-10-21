@@ -37,7 +37,6 @@
 #include "nbtool_config.h"
 #endif
 
-#include <sys/cdefs.h>
 #if defined(__RCSID) && !defined(lint)
 #if 0
 static char sccsid[] = "@(#)expr.c	8.2 (Berkeley) 4/29/95";
